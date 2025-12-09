@@ -79,13 +79,13 @@ function handleAddContactForm(formData){
         {props.isUpdating ? "Update Contact" :"Add Contact"}
         </div>
 <div className="col-12 col-md-4 p-1">
-<input name="name" value={formData.name} onChange={handleFormInputChange} placeholder="Name..." className="form-control form-control-sm"/>      
+<input name="name" value={formData.name} onChange={handleFormInputChange} placeholder="Name..." className="form-control form-control-sm" style={{backgroundColor:"#b3b8bc"}}/>      
   </div>
   <div className="col-12 col-md-4 p-1">
-<input name="email"  value={formData.email} onChange={handleFormInputChange} placeholder="Email..." className="form-control form-control-sm"/>      
+<input name="email"  value={formData.email} onChange={handleFormInputChange} placeholder="Email..." className="form-control form-control-sm" style={{backgroundColor:"#b3b8bc"}}/>      
   </div>
   <div className="col-12 col-md-4 p-1">
-<input name="phone"  value={formData.phone} onChange={handleFormInputChange} placeholder="Phone..." className="form-control form-control-sm"/>      
+<input name="phone"  value={formData.phone} onChange={handleFormInputChange} placeholder="Phone..." className="form-control form-control-sm" style={{backgroundColor:"#b3b8bc"}}/>      
   </div>
     
   { messages.successMessage  && <div className="col-12 text-center text-success">{ messages.successMessage}</div>}
