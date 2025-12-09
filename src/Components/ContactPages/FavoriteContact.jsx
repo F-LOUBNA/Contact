@@ -1,4 +1,4 @@
-import Contact from "./contact";
+import Contact from "./Contact";
 
 function FavoriteContact(props) {
     return (<div className="col-12 p-2" style={{borderRadius:"10px",backgroundColor:"#323637"}}> 
